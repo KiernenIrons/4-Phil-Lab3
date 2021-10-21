@@ -36,6 +36,8 @@ int main(int argc, char** argv)
         game->render();
     }
 
+    game->cleanup();
+
     std::cin.get();
     return 0;
 }

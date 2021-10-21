@@ -6,7 +6,7 @@ COMP_FILES	:= ${SRC_DIR}/*.cpp
 
 INCLUDE		:= "C:\SDL2-2.0.16\i686-w64-mingw32\include\SDL2"
 LIB			:= "C:\SDL2-2.0.16\i686-w64-mingw32\lib"
-DLL			:= "-lmingw32" "-lSDL2main" "-lSDL2"
+DLL			:= "-lmingw32" "-lSDL2main" "-lSDL2" "-lSDL2_image" "-lSDL2_ttf"
 
 MSG_START	:= "Build Started"
 MSG_END		:= "Build Complete"
