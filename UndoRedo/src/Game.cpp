@@ -26,6 +26,8 @@ Game::Game()
     m_font = TTF_OpenFont("assets/fonts/04B_30__.TTF", 24);
 
     m_buttons.push_back(new Button(50, 50, m_font, "Lego Brick", new BuildLego(), m_renderer));
+    m_buttons.push_back(new Button(150, 50, m_font, "Clay Brick", new BuildClay(), m_renderer));
+    m_buttons.push_back(new Button(250, 50, m_font, "Concrete Brick", new BuildConcrete(), m_renderer));
 }
 
 bool Game::isRunning()
